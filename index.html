@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6c451da718.js" crossorigin="anonymous"></script>
 
     <style>
         .font-manrope{
@@ -19,32 +20,151 @@
 <body class="font-manrope">
     <header class="container mx-auto">
 
-        <nav>
-            <div class="logo">
-                font awesome 
-                <h2>Rinterio</h2>
+        <nav class="flex justify-between">
+            <div class="flex items-center space-x-2">
+                <i class="fa-solid fa-arrow-right"></i> 
+                <h2 class="text-2xl font-extrabold">Rinterio</h2>
             </div>
-            <div class="nav-items py-">
-        
-            <div class="search-cart">
-
+          
+          
+             <div class="flex space-x-7 max-sm:hidden">
+                <p>Home</p>
+                <p>Services</p>
+                <p>Blogs</p>
+                <p>Portfolio</p>
+                <p>Contact Us</p>
             </div>
+            <i class="fa-solid fa-bars lg:hidden"></i>
+            <div class="space-x-4 max-sm:hidden">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-plus"></i>
+                <div>
+                    <button class="btn btn-warning">Book Consult</button>
+                <i class="fa-solid fa-arrow-right"></i>
+                </div> 
+            </div>
+           
         </nav>
-
-        <div>
-            
+        <div class="items-center justify-center flex flex-col">
+            <img class="items-center justify-center flex" src="assets/banner.png" alt="">
         
-        <div>
+        <div class="w-10/12 flex flex-col text-center justify-center items-center space-y-4">
             <h1 class="text-6xl font-extrabold ">A barn house of this design has a <br> striking appearance</h1>
-            <p class="font-medium color[rgb(73, 73, 73)]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem cumqu laboriosam consequuntur, inventore.</p>
-            <button>View Detais</button>
+            <p class="w-9/12 font-medium color[rgb(73, 73, 73)]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem cumqu laboriosam  consequuntur, inventcorrupti!consequuntur, inventore. corrupti! Lorem amet.</p>
+            <div>
+                <button class="btn rgba(171, 239, 95, 0.5)">View Detais</button>
+            <i class="fa-solid fa-arrow-right"></i>
+            </div> 
         </div>
         </div>
 
     </header>
 
     <main>
+        <section class="container mx-auto bg-rgb(30, 30, 30); lg:flex  space-y-10">
+            <div>
+                <i class="fa-solid fa-arrow-right"></i>
+            <button>About Us</button>
+            <div>
+                <h1 class="text-5xl font-bold">We design thoughtful, liveable spaces</h1>
+                <p>The barn house captivates with its blend of rustic   charm and  modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            </div>
+            <div class="flex space-x-6">
+                <img src="assets/commercial.png" alt="">
+                <div>
+                    <h1>Commercial</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae molestias, hic amet a repellat mollitia!</p>
+                </div>
+                </div>
+                <div class="flex space-x-6">
+                <img src="assets/residential.png" alt="">
+                <div>
+                    <h1>Residential</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae molestias, hic amet a repellat mollitia!</p>
+                </div>
+            </div>
+            </div>
+            <img src="assets/Rectangle.png" alt="">
 
+        </section>
+
+        <section class="container mx-auto lg:grid grid-cols-4">
+            
+                <div class="items-center text-center space-y-2">
+                    <i class="fa-regular fa-message"></i>
+                    <h1 class="text-4xl font-extrabold">235+</h1>
+                    <p>Happy Client Review</p>
+                </div>
+                <div class="items-center text-center space-y-2">
+                    <i class="fa-solid fa-building"></i>
+                    <h1 class="text-4xl font-extrabold">50+</h1>
+                    <p>Work Department</p>
+                </div>
+                <div class="items-center text-center space-y-2">
+                    <i class="fa-solid fa-users"></i>
+                    <h1 class="text-4xl font-extrabold">30k+</h1>
+                    <p> Our Happy Client</p>
+                </div>
+                <div class="items-center text-center space-y-2">
+                    <i class="fa-solid fa-user-group"></i>
+                    <h1 class="text-4xl font-extrabold">307+</h1>
+                    <p>Stuff Members</p>
+                </div>
+            
+        </section>
+
+        <section class="container mx-auto text-center">
+            <div class="space-y-3">
+                <i class="fa-solid fa-arrow-right"></i>
+            <button>How We Work</button>
+            <div>
+
+            <div class="space-y-3">
+                <h2 class="text-4xl font-bold">Our Work Process</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eius tenetur, animi esse dolore eligendi iusto minima facere nostrum delectus.</p>
+            </div>
+
+
+
+       <div class="space-y-3 sm:grid grid-cols-1 lg:grid grid-cols-4 justify-around">
+        <div class="card bg-primary text-primary-content w-56 space-y-3">
+            <div class="card-body">
+                <img class="w-7" src="assets/concept.png" alt="">
+              <h2 class="card-title">Concept</h2>
+              <p>If a dog chews shoes whose shoes does he choose? If a dog.</p>
+              <div class="card-actions justify-end">
+              </div>
+            </div>
+          </div>
+        <div class="card bg-primary text-primary-content w-56">
+            <div class="card-body">
+                <img class="w-7" src="assets/flow-chart.png" alt="">
+              <h2 class="card-title">Design Process</h2>
+              <p>If a dog chews shoes whose shoes does he choose? If a dog.</p>
+              <div class="card-actions justify-end">
+              </div>
+            </div>
+          </div>
+        <div class="card bg-primary text-primary-content w-56">
+            <div class="card-body">
+                <img class="w-7" src="assets/vision.png" alt="">
+              <h2 class="card-title">Supervision</h2>
+              <p>If a dog chews shoes whose shoes does he choose? If a dog.</p>
+              <div class="card-actions justify-end">
+              </div>
+            </div>
+          </div>
+        <div class="card bg-primary text-primary-content w-56">
+            <div class="card-body">
+                <img class="w-7" src="assets/budget-planning.png" alt="">
+              <h2 class="card-title">Budget Planning</h2>
+              <p>If a dog chews shoes whose shoes does he choose? If a dog.</p>
+              <div class="card-actions justify-end">
+              </div>
+            </div>
+          </div>
+       </div>
+        </section>
     </main>
 
      <footer>
